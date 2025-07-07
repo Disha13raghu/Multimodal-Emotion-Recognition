@@ -1,37 +1,26 @@
-Flask
-Gunicorn
-Werkzeug
-numpy
-pandas
-opencv-python
-cmake
-argparse
-scipy
-dlib
-tensorflow
-imutils
-tika
-wave
-nltk
-gensim
-seaborn
-scikit-learn
-dill
-keras
-wordcloud
-Flask
-Werkzeug
-numpy
-pandas
-cv2
-time
-re
-os
-argparse
-collections
-scipy
-dlib
-tensorflow
-imutils
+Flask==2.2.5
+gunicorn==20.1.0
+Werkzeug==2.2.3
+
+numpy==1.23.5
+pandas==1.5.3
+scipy==1.10.1
+opencv-python==4.6.0.66
+cmake==3.26.4
+argparse  # Optional — part of stdlib in 3.10, usually no need to install
+
+dlib==19.24.0  # works with Python 3.10 and cmake
+tensorflow==2.11.0  # last version to officially support Python 3.10
+keras==2.11.0  # matched to tensorflow
+
+imutils==0.5.4
+tika==1.24
+nltk==3.8.1
+gensim==4.3.2
+seaborn==0.12.2
+scikit-learn==1.2.2
+dill==0.3.6
+wordcloud==1.9.2
+
 
 
